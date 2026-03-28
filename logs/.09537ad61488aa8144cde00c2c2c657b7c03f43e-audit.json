@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\Ahmed\\Desktop\\sql\\logs\\.09537ad61488aa8144cde00c2c2c657b7c03f43e-audit.json",
+    "files": [
+        {
+            "date": 1772595899872,
+            "name": "C:\\Users\\Ahmed\\Desktop\\sql\\logs\\app-2026-03-04.log",
+            "hash": "77a8e7b389162cedd756ce55bfeae2e761f58c9160332d76ab220574db18750c"
+        }
+    ],
+    "hashType": "sha256"
+}
