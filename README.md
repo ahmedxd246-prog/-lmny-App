@@ -76,15 +76,41 @@ npm run dev
 Create a `.env` file and add:
 
 ```env
-PORT=5000
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=yourpassword
-DB_NAME=education_app
-JWT_SECRET=yoursecret
+# 🚀 Server Configuration
+PORT=3000
+NODE_ENV=development
 
-EMAIL_USER=your@email.com
-EMAIL_PASS=yourpassword
+# 🗄️ Database Configuration
+DB_NAME=newdb
+DB_USER=root
+DB_PASSWORD=your_database_password
+
+# 🌐 Allowed Origins (CORS)
+ALLOWED_ORIGIN=http://localhost:3000,http://localhost:5173,http://localhost:5000
+
+# 🔐 JWT Configuration
+JWT_ACCESS_SECRET=your_access_secret
+JWT_ACCESS_EXPIRES_IN=15m
+
+JWT_REFRESH_SECRET=your_refresh_secret
+JWT_REFRESH_EXPIRES_IN=7d
+
+JWT_ACTIVATE_SECRET=your_activate_secret
+JWT_ACTIVATE_EXPIRES_IN=10m
+
+# 📧 Email Configuration
+EMAIL_HOST=smtp.gmail.com
+EMAIL_PORT=465
+EMAIL_USERNAME=your_email@gmail.com
+EMAIL_PASSWORD=your_email_app_password
+
+# ☁️ Cloudinary Configuration
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+
+# 🔗 Base URL
+BASE_URL=http://localhost:3000
 ```
 
 ---
